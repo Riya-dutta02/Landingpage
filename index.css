@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    position: relative;
+}
+
+#nav{
+    height: 90px;
+    padding: 0px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#nav img{
+    height: 50px;
+    margin-right: 170px;
+}
+#navprt-1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#navprt-1 h4{
+    margin-right: 70px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#navprt-2 i{
+    margin-right: 70px;
+    font-size: 23px;
+    font-weight: 300;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: brown;
+}
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg , #858585 , #ff77cd);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration:none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgb(94,28,68,0.15);
+}
+.feature-img{
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    border-radius: 50px;
+}
+.social-lin{
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 180px;
+    left: -80px;
+}
+.social-lin a{
+    text-decoration: none;
+    color: brown;
+    padding-right: 20px;
+    font-size: 14px;
+}
